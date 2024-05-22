@@ -1,0 +1,148 @@
+*{
+    margin: 5;
+    padding: 0;
+    Border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #ede7e4;
+}
+.imagen-logo {
+    margin: -10px -53px -105px 0px;
+    width: 70%;
+    
+}
+.logo{
+    margin-left: 20px;
+}
+.logo a {
+    text-decoration:none;
+    color: #171717;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.cookie{
+    position:absolute;
+    top: 911px;
+    left: 70px;
+    width: 30%
+}
+.cake{
+    top: 540px;
+    left: 200px;
+    width: 55%
+}
+.elotes{
+    margin: 7px -90px 100px 0px ;
+    width: 265%
+}
+.exo{
+    position:absolute;
+    top: 379px;
+    left: 70px;
+    width: 30%
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    height: 80px;
+    background: #171717;
+    border:5px solid #9e37b1;
+    position: top 800px;
+    width:98%;
+    z-index: 400;
+}
+.navbar {
+
+    display: flex;
+    margin-right: 25px;
+    position:top 800px;
+}
+.navbar a{
+    display: block;
+    padding: 23px 26px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+   position: top 800px;
+}
+.navbar a:hover{
+    background: #3f3f3f;
+    position: top 800px;  
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hedaer {
+    height: 60vh !important;
+    background: url(Z0Fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 3px solid #171717;
+    color: #ede7e4;
+    text-decoration: none;
+    background: #9e37b1;
+    align-items: center;
+}
+.btn:hover{
+    background: #d48a8a;
+}
+.btn-home {
+    display: center;
+    align-items: center;
+
+}
+.btn-home a {
+    margin: 0px 10px;
+    align-items: center;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    padding: 30px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container.box {
+    height: 11rem;
+    width: 17rem;
+    background: 101010;
+    border-radius: 1rem;
+    box-shadow: 0. 3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
